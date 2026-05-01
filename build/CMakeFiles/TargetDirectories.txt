@@ -1,3 +1,0 @@
-C:/d/proj/renderer/build/CMakeFiles/renderer.dir
-C:/d/proj/renderer/build/CMakeFiles/edit_cache.dir
-C:/d/proj/renderer/build/CMakeFiles/rebuild_cache.dir
