@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(renderer)
+set(CMAKE_PREFIX_PATH "third_party/SDL2")
+find_package(SDL2 REQUIRED)
+add_executable(renderer src/main.cpp src/geometry.cpp)
+target_link_libraries(renderer PRIVATE SDL2::SDL2main SDL2::SDL2)
+target_include_directories(renderer PRIVATE third_party/SDL2/include)
+target_include_directories(renderer PRIVATE src)
